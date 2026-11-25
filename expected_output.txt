@@ -1,0 +1,63 @@
+EXPECTED OUTPUT (independently calculated with Python; not a Spark execution log)
+Synthetic dataset: 25 rows; 20 valid; 5 invalid.
+Invalid IDs: T021, T022, T023, T024, T025.
+Missing/failed conversions: store_location=1, quantity_sold=1, unit_price=1, transaction_date=1; other columns=0.
+
+Valid transactions:
+T001 Laptop 110000
+T002 Phone 60000
+T003 Headphones 15000
+T004 Shirt 16000
+T005 Jeans 18000
+T006 Rice 15000
+T007 Oil 5000
+T008 Chair 16000
+T009 Desk 16000
+T010 Phone 40000
+T011 Shirt 12000
+T012 Rice 10000
+T013 Headphones 12000
+T014 Jeans 10500
+T015 Chair 12000
+T016 Oil 3000
+T017 Laptop 55000
+T018 Desk 8000
+T019 Shirt 8000
+T020 Rice 5000
+
+Category revenue
+Electronics: 292000
+Clothing: 64500
+Furniture: 52000
+Grocery: 38000
+
+Location revenue
+Delhi: 198500
+Mumbai: 108000
+Chennai: 93000
+Bengaluru: 47000
+
+Top five products by units
+Rice: 60 units, INR 30000
+Shirt: 45 units, INR 36000
+Oil: 40 units, INR 8000
+Jeans: 19 units, INR 28500
+Headphones: 18 units, INR 27000
+
+Transactions above INR 10000
+T001: 110000
+T002: 60000
+T017: 55000
+T010: 40000
+T005: 18000
+T004: 16000
+T008: 16000
+T009: 16000
+T003: 15000
+T006: 15000
+T011: 12000
+T013: 12000
+T015: 12000
+T014: 10500
+
+Total revenue: 446500
